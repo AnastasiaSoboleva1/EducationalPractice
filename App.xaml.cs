@@ -15,7 +15,7 @@ namespace AnastasiaSoboleva
     /// </summary>
     public partial class App : Application
     {
-        public static Entities.SobolevaEntities Context { get; set; } = new SobolevaEntities();
+        public static Entities.AnastasiaSoboleva Context { get; set; } = new AnastasiaSoboleva();
         public static User AuthUser
         {
             get
